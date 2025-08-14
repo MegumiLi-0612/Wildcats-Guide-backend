@@ -1,6 +1,6 @@
 # Backend/routes.py
 from flask import Blueprint, jsonify, request
-from Backend.models import db, User, Category, Question, History
+from backend.models import db, User, Category, Question, History
 from sqlalchemy import text
 
 main = Blueprint('main', __name__)
