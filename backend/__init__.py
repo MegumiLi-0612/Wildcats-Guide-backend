@@ -3,7 +3,7 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS
-from Backend import config 
+from backend import config 
 
 db = SQLAlchemy()
 
