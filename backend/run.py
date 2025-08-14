@@ -1,6 +1,6 @@
 # Backend/run.py
 import os
-from Backend import create_app, db
+from backend import create_app, db
 from flask_cors import CORS 
 
 app = create_app()
